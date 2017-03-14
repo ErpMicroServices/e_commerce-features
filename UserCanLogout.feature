@@ -1,4 +1,4 @@
-Feature: Logging in
+Feature: Logging Out
     As a registered user of Enterprise Kanban
     I want to logout
     So that I can stop using the system
