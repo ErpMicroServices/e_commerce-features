@@ -1,3 +1,4 @@
+@database @user-service 
 Feature: Logging Out
     As a registered user of Enterprise Kanban
     I want to logout

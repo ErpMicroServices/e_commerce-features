@@ -1,3 +1,4 @@
+@database @user-service 
 Feature: User can register
     As a new user of the Enterprise Kanban
     I want to register as a user
