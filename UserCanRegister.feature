@@ -1,4 +1,4 @@
-@database @user-service 
+@database @user-service
 Feature: User can register
     As a new user of the Enterprise Kanban
     I want to register as a user
@@ -13,7 +13,7 @@ Feature: User can register
     Scenario: Registering a user requires the username to be provided
         Given I have provided my password as "chestertester"
         When I register
-        Then I will be given a message that says "The username is required"
+        Then I will be given a message that says "User login id is required, and must be a valid email address"
 
     Scenario: Registering a user requires the password to be provided
         Given I have provided my username as "chester@tester.com"
@@ -25,4 +25,4 @@ Feature: User can register
         And I have provided my username as "chester@tester.com"
         And I have provided my password as "chester2tester2"
         When I register
-        Then I will be given the message "You have already registered with that username"
+        Then I will be given the message "A user with the given username is already registered"
