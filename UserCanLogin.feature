@@ -5,10 +5,7 @@ Feature: Logging in
     So that I can use the system
 
     Background:
-        Given I have provided my username as "chester@tester.com"
-        And I have provided my password as "chestertester"
-        When I register
-        Then I will be logged in
+        Given a user registered with username = "chester@tester.com", password = "chestertester"
 
     Scenario: I can login
         Given I have provided my username as "chester@tester.com"

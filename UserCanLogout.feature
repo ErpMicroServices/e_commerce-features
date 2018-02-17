@@ -5,10 +5,7 @@ Feature: Logging Out
     So that I can stop using the system
 
     Background:
-        Given I have provided my username as "chester@tester.com"
-        And I have provided my password as "chestertester"
-        When I register
-        Then I will be logged in
+        Given a user registered with username = "chester@tester.com", password = "chestertester"
 
     Scenario: I can logout
       When I logout
