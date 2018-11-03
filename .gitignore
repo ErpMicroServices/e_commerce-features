@@ -37,3 +37,6 @@ jspm_packages
 .node_repl_history
 
 .idea/
+/e_commerce-features.iml
+e_commerce-features.iml
+/e_commerce_features.iml
