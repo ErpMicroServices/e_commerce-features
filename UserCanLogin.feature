@@ -1,4 +1,3 @@
-@user-service
 Feature: Logging in
     As a registered user of Enterprise Kanban
     I want to login

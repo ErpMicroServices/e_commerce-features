@@ -1,4 +1,4 @@
-@database @admin-service @admin-ui
+@e_commerce_database
 Feature: web content status type
     As a Admin of e-commerce data
     I want to create, read, update and delete web content status type

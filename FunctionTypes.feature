@@ -1,4 +1,4 @@
-@database @admin-service @admin-ui
+@e_commerce_database
 Feature: Function Types
     As a Admin of e-commerce data
     I want to create, read, update and delete function types
